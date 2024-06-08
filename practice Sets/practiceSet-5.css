@@ -1,0 +1,23 @@
+#question {
+    font-size: 20px; 
+}
+
+#loader {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #02C39A;
+    border-left: 10px solid #05668D;
+    position: absolute;
+    top: 50deg;
+    animation: animateLoader 1.5s ease-in-out 0s infinite normal;
+}
+
+@keyframes animateLoader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

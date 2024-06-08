@@ -1,0 +1,68 @@
+/* Color Property*/
+h1 {
+    color: blue;
+}
+
+/* Background color Property*/
+body {
+    background-color:aqua;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    color: blue;
+}
+
+#rgb {
+    background-color: cadetblue;
+}
+
+#red {
+    color: rgb(250, 0, 0);
+    background-color: rgb(200, 200, 200);
+}
+
+#green {
+    color: rgb(0, 250, 0);
+    background-color: rgb(250, 0, 150);
+}
+
+#hexred {
+    color: #ff0000;
+    background-color: #85e327;
+}
+
+#hexgreen {
+    color: #00ff00;
+    background-color: #2785e3;
+}
+
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
+}
+
+button {
+    background-color: green;
+}
+
+#textproperties {
+    text-align: center;
+    text-decoration: blue wavy underline;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#multipletextproperties {
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: capitalize;
+}

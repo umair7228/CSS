@@ -1,0 +1,32 @@
+/*Practice Questions*/
+#q1 {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#navbar {
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    border: 4px solid brown;
+    align-content: center;
+    padding-left: 12px;
+}
+
+#navbar a {
+    margin-right: 300px;
+    font-size: larger;
+}
+
+#logo {
+    color: #f08804;
+    text-decoration: none;
+}
+
+#navbar button {
+    background-color: #f08804;
+    color: white;
+}

@@ -1,0 +1,145 @@
+/*Relative units*/
+#relunits {
+    background-color: aqua;
+}
+
+/* Percentage*/
+#percent {
+    height: 70%; /*This will be the 30% of perent body*/
+    width: 60%; /*This will be the 60% of perent body*/
+    background-color: blueviolet;
+    margin-top: 25px;
+    #percentage {
+        margin-left: 12%; /*This will be the 10% of perent body*/
+    }
+
+    #percentageDef {
+        color: white;
+    }
+}
+
+/* em Unit */
+#emUnit{
+    background-color: burlywood;
+    #emDef {
+        font-size: 2em;
+    }
+}
+
+/* rem Unit */
+
+#remUnit{
+    background-color: burlywood;
+    #remDef {
+        font-size: 1.5rem;
+    }
+}
+
+/* Postion Property */
+#positionDef {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* Static Property */
+#static {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Relative property */
+
+#relative {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+/* Absolute property */
+
+#absolute {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 600px;
+    z-index: 3;
+}
+
+/* Fixed property */
+
+#fixed {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    right: 0;
+}
+
+/* sticky property */
+
+#sticky {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    position: sticky;
+}
+
+/* To Add Background Image */
+#backgroundImage {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*Cover Property*/
+
+#cover {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url(Image1.jpg);
+    background-size: cover;
+    display: inline-block;
+    
+    #coverHeading {
+        color:chartreuse;
+    }
+    #coverDef {
+        color:red;
+    }
+}
+
+#contain {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url(Image2.jpg);
+    background-size: cover;
+    display: inline-block;
+}

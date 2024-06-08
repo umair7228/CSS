@@ -1,0 +1,54 @@
+body {  
+    text-align: center;
+    align-content: center;
+}
+
+/* Flexbox Def */
+#flexboxDef {
+    font-size: 23px;
+}
+
+/* Flex container */
+#flexcontainer {
+    width: 900px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: cadetblue;
+}
+
+#box3 {
+    background-color: coral;
+    flex-grow: 1;
+}
+
+#box4 {
+    background-color: dodgerblue;
+}
+
+#box5 {
+    background-color: fuchsia;
+}

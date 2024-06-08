@@ -1,0 +1,182 @@
+body {
+    background-image: url(backImage.jpg);
+    background-size: cover;
+}
+p {
+    font-size: 23px;
+}
+
+/* Transtion Property */
+#transitions {
+    font-size: 20px;
+}
+
+/* Transtions */
+#transitionDiv {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.5s;
+}
+
+#transitionDiv:hover {
+    background-color:blueviolet;
+    color: #fff;
+    font-size: 70px;
+    width: 400px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+#transitionDiv:active {
+    background-color:blue;
+    color: #fff;
+}
+
+/* Rotate */
+#rotateDiv {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color:chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 35px;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+#rotateDiv:hover {
+    background-color:crimson;
+    color: #fff;
+    transform: rotate(45deg);
+    padding: 10px;
+}
+
+/* 3d Image */
+img {
+    width: 300px;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+img:hover {
+    transform: rotateY(45deg);
+}
+
+/* Scale */
+#scaleDiv {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 35px;
+    margin-left: 100px;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+#scaleDiv:hover {
+    background-color:cyan;
+    color: black;
+    transform: scale(2, 1);
+    padding: 10px;
+}
+
+/* Translate */
+#translateDiv {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color:darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 35px;
+    margin-left: 100px;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+#translateDiv:hover {
+    background-color:deeppink;
+    color: white;
+    transform: Translate(120px, -100px);
+    padding: 10px;
+}
+
+/* Skew */
+#skewDiv {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color:goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 35px;
+    margin-left: 100px;
+    transition: all;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+}
+
+#skewDiv:hover {
+    background-color:indianred;
+    color: white;
+    transform: Skew(45deg);
+    padding: 10px;
+}
+
+/* Animation */
+
+#animationDiv {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    background-color:darkorange;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 35px;
+    margin-left: 100px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+}
+
+@keyframes animation {
+    from {left: 0px;}
+    to {left: 1500px;}
+}

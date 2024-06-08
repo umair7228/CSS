@@ -1,0 +1,26 @@
+* {
+    text-align: center;
+}
+#practiceSet5 {
+    background-color: aqua;
+}
+
+#practiceset {
+    background-color:aquamarine ;
+    font-size: 20px;
+}
+
+#loveNature {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    background-image: url(Image3.jpg);
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 0;
+    z-index: 1px;
+}
